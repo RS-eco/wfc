@@ -1,0 +1,37 @@
+---
+title: "wfc: R package for weather forecasting"
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Installation
+
+You can install wfc from github with:
+
+```{r gh-installation, eval = FALSE}
+# Install devtools if not available
+if(!"devtools" %in% installed.packages()[,"Package"]) install.packages("devtools")
+
+# Install traitdata package from Github
+devtools::install_github("RS-eco/wfc")
+```
+
+To *use* the package, you have to install it directly from GitHub using the `devtools` package. 
+
+After installation, simply load the `wfc` package:
+
+```{r, message=FALSE, eval=F}
+library(wfc)
+```
+
+<!--
+- Meteogram, see yr.no hour by hour forecast
+-->
